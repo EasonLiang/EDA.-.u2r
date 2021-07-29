@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Connector)(type Legacy)(uri /Volumes/project/embed/EDA/kicad/library_download/Connector/Connector.lib)(options "")(descr ""))
+  (lib (name mySTM32)(type Legacy)(uri ${KIPRJMOD}/mySTM32.lib)(options "")(descr ""))
+)
