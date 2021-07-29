@@ -510,12 +510,12 @@ $EndComp
 Wire Wire Line
 	8300 5150 8300 5100
 $Comp
-L Connector:USB_B_Micro J1
+L usb2RF-rescue:USB_B_Micro-Connector J1
 U 1 1 60E915C1
 P 4050 1600
 F 0 "J1" H 4107 2067 50  0000 C CNN
 F 1 "USB_B_Micro" H 4107 1976 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4200 1550 50  0001 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 4200 1550 50  0001 C CNN
 F 3 "~" H 4200 1550 50  0001 C CNN
 	1    4050 1600
 	1    0    0    -1  
@@ -973,7 +973,7 @@ F 3 "" H 6150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J2
+L usb2RF-rescue:Conn_Coaxial-Connector J2
 U 1 1 60FDCC4D
 P 6750 3900
 F 0 "J2" H 6850 3875 50  0000 L CNN
@@ -1171,10 +1171,10 @@ Wire Notes Line
 Wire Notes Line
 	7700 4850 10600 4850
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0101
 U 1 1 60FAB9E9
 P 5200 1500
-F 0 "#PWR?" H 5200 1350 50  0001 C CNN
+F 0 "#PWR0101" H 5200 1350 50  0001 C CNN
 F 1 "+5V" H 5300 1600 50  0000 C CNN
 F 2 "" H 5200 1500 50  0001 C CNN
 F 3 "" H 5200 1500 50  0001 C CNN
