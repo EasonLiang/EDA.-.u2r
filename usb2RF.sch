@@ -510,12 +510,12 @@ $EndComp
 Wire Wire Line
 	8300 5150 8300 5100
 $Comp
-L usb2RF-rescue:USB_B_Micro-Connector J1
+L schEsLib:USB_Micro J1
 U 1 1 60E915C1
 P 4050 1600
 F 0 "J1" H 4107 2067 50  0000 C CNN
 F 1 "USB_B_Micro" H 4107 1976 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 4200 1550 50  0001 C CNN
+F 2 "pcbEsLib:USB-Micro" H 4200 1550 50  0001 C CNN
 F 3 "~" H 4200 1550 50  0001 C CNN
 	1    4050 1600
 	1    0    0    -1  
@@ -973,12 +973,12 @@ F 3 "" H 6150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L usb2RF-rescue:Conn_Coaxial-Connector J2
+L Connector:Conn_Coaxial J2
 U 1 1 60FDCC4D
 P 6750 3900
 F 0 "J2" H 6850 3875 50  0000 L CNN
 F 1 "SMA" H 6850 3784 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 6750 3900 50  0001 C CNN
+F 2 "pcbEsLib:SMA_EdgeMount" H 6750 3900 50  0001 C CNN
 F 3 " ~" H 6750 3900 50  0001 C CNN
 	1    6750 3900
 	1    0    0    -1  
