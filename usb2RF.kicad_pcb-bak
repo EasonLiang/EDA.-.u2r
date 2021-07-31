@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 8)
     (tracks 22)
     (zones 0)
     (modules 38)
@@ -328,7 +328,7 @@
   )
 
   (module pcbEsLib:SMA_EdgeMount (layer F.Cu) (tedit 6104C6CE) (tstamp 610450D3)
-    (at 81.1276 46.736)
+    (at 80.5434 47.5)
     (descr http://www.amphenolrf.com/132289.html)
     (tags SMA)
     (path /60FDCC4D)
@@ -1812,11 +1812,14 @@
     )
   )
 
+  (gr_arc (start 82 53) (end 84 53) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 610526E7))
+  (gr_arc (start 42 53) (end 42 55) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 610526E7))
+  (gr_arc (start 82 42) (end 82 40) (angle 90) (layer Edge.Cuts) (width 0.05) (tstamp 610526E7))
   (gr_arc (start 42 42) (end 40 42) (angle 90) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 40 40) (end 40 55) (layer Edge.Cuts) (width 0.05) (tstamp 60E4330E))
-  (gr_line (start 40 55) (end 80 55) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 80 40) (end 80 55) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 40 40) (end 80 40) (layer Edge.Cuts) (width 0.05) (tstamp 6102DC63))
+  (gr_line (start 40 42) (end 40 53) (layer Edge.Cuts) (width 0.05) (tstamp 60E4330E))
+  (gr_line (start 42 55) (end 84 55) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 84 40) (end 84 55) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 42 40) (end 84 40) (layer Edge.Cuts) (width 0.05) (tstamp 6102DC63))
 
   (segment (start 68.95168 53.58548) (end 69.42836 53.1088) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 67.63784 53.58548) (end 68.95168 53.58548) (width 0.254) (layer F.Cu) (net 1))
