@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name pcbEsLib)(type KiCad)(uri /home/eason/kicad/example/esLib/pcbEsLib.pretty)(options "")(descr ""))
+  (lib (name pcbEsLib)(type KiCad)(uri /Volumes/project/embed/EDA/kicad/esLib/pcbEsLib.pretty)(options "")(descr ""))
 )

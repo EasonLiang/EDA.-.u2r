@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name Connector)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector.lib)(options "")(descr ""))
-  (lib (name schEsLib)(type Legacy)(uri /home/eason/kicad/example/esLib/schEsLib.lib)(options "")(descr ""))
+  (lib (name schEsLib)(type Legacy)(uri /Volumes/project/embed/EDA/kicad/esLib/schEsLib.lib)(options "")(descr ""))
 )

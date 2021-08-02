@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 16)
     (tracks 408)
     (zones 0)
     (modules 38)
@@ -1813,6 +1813,7 @@
     )
   )
 
+  (gr_arc (start 82 53) (end 83 53) (angle 90) (layer F.Mask) (width 0.508) (tstamp 6106D816))
   (gr_line (start 82 41) (end 76 41) (layer F.Mask) (width 0.508) (tstamp 6106BFAD))
   (gr_line (start 76 54) (end 76 52) (layer F.Mask) (width 0.508) (tstamp 6106CC42))
   (gr_line (start 82 54) (end 76 54) (layer F.Mask) (width 0.508) (tstamp 6106CC38))
